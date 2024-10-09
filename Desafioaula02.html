@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styled2.css">
+    <title>CadastroCliente+</title>
+</head>
+
+<body>
+<header> 
+    <h1>Cadastro Cliente+</h1>
+</header>  
+<main>
+    <section>
+        <h2>Insira seus dados para obter descontos</h2>
+    </section>
+
+    <section id="cadastroefetuado">
+        <div>
+            <label for="input_nome">Nome</label>
+            <input type="text" id="input_nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="input_cpf">Cpf</label>
+            <input type="number"    id="input_cpf" placeholder="Digite o CPF">
+        </div>
+        <div>
+            <label for="input_datanascimento">Data de nascimento</label>
+            <input type="date" id="input_datanascimento">
+        
+        </div>
+        <div>
+            <label for="sexo">Sexo:</label>
+            <select id="sexo">
+                <option></option>
+                <option value="masculino">masculino</option>
+                <option value="feminino">feminino</option>
+            </select>
+                
+        </div>
+        <div>
+            <label>Endereço</label>
+            <input type="text" id="input_texto" placeholder="Digite seu endereço">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" id="input_email" placeholder="exemplo@email.com">
+        </div>
+
+        <div>
+            <label>Senha</label>
+        <input type="password" id="input_senha" placeholder="Digite uma senha"> 
+            </div>
+    <button onclick="apertabotao()">Enviar</button>
+    <script>
+        function apertabotao(){
+            alert("Cadastro efetuado!")
+        }
+    </script>
+
+    </section>
+</main>
+    
+</body>
+<footer>
+    <p>supermercadocm</p>
+    <p>&copy;redecompremais</p>
+</footer>
+</html>
